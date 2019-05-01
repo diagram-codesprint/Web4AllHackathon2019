@@ -6,8 +6,8 @@
  
 * 8:30 Check in and breakfast
 * 9:00 - 9:45  Introductions and Overview
-* 9:45 - 11:30 Pitches and team grouping
-* 11:30 - 12 Coding
+* 9:45 - 10:30 Pitches and team grouping
+* 10:30 - 12 Coding
 * 12 - 1 Working Lunch
 * 1 - 6 Coding
 * 6pm Dinner
