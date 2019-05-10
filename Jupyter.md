@@ -1,6 +1,7 @@
 # Getting Started with Jupyterlab
 
-Basic steps on getting started with the Jupyterlab project.
+Basic steps on getting started with the Jupyterlab project. These instructions
+are based on working on Linux, but should work similarly on a Mac.
 
 ## Basic Installation
 
@@ -35,11 +36,11 @@ Let's do some changes to the code to see if things are working.
 
 * Go to `jupyterlab/packages/launcher-extension/src/index.ts`
 * Change the line
-```
+```JavaScript
 launcher.title.label = 'Launcher';
 ```
 to
-```
+```JavaScript
 launcher.title.label = 'My Launcher';
 ```
 * Build again with `jlpm run build`
@@ -50,7 +51,7 @@ You should now see a launcher with `My Launcher` label.
 
 ### In Phosphor
 
-* link `widgets` package from phosphor:
+* Link `widgets` package from phosphor:
 
 ```bash
 cd phosphor/packages/widgets
@@ -63,7 +64,7 @@ jlpm link @phosphor/widgets
 * Find the class `MenuBar` (line 45).
 * In the constructor after the super class call `super({ node: Private.createNode() });`
   add the following line:
-  ```
+  ```JavaScript
   this.node.setAttribute('style', 'color:red; background-color:blue');
   ```
 * Rebuild `phosphor` with `jlpm run build`
