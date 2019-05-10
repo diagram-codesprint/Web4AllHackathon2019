@@ -33,6 +33,7 @@
 * [JupyterLab Main Project](https://github.com/diagram-codesprint/jupyterlab)
 * [Phosphor Ancillary Project](https://github.com/diagram-codesprint/phosphor)
 * [Extended Image Descriptions Project](https://github.com/diagram-codesprint/ExtendedImageDescriptions)
+* [Accessible Code Repository Project](https://github.com/diagram-codesprint/AccessibleCodeRepository)
 
 # Slack Workspace Invite Link
 * [Join Web4AllHackathon Slack Workspace](https://join.slack.com/t/web4allhackathon2019/shared_invite/enQtNjIwMDE3NjkzODg4LWE3NDJmMTRiYWRkOTkyZGM4ODJlYzc2YzQ2MzY2MmFlMDA2YzFiZDMzNzBhZGJjM2I0NzM3YTg4YzA2MjliNWQ)
