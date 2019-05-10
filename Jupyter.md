@@ -1,4 +1,6 @@
-# Getting Started:
+# Getting Started with Jupyterlab
+
+Basic steps on getting started with the Jupyterlab project.
 
 ## Basic Installation
 
@@ -18,7 +20,7 @@
   ```jlpm link```
 * Make sure you go into the right `phosphor` sub package. E.g., do
 
-```
+```bash
 cd phosphor/packages/messaging
 jlpm link
 cd -
@@ -50,7 +52,7 @@ You should now see a launcher with `My Launcher` label.
 
 * link `widgets` package from phosphor:
 
-```
+```bash
 cd phosphor/packages/widgets
 jlpm link
 cd -
