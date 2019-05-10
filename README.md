@@ -42,8 +42,7 @@
 
 ### JupyterLab
 
-JupyterLab enables users to create and share documents that combine live code with narrative text, mathematical equations, visualizations, interactive controls, and other rich output.  Making JupyterLab accessible impacts both employment opportunities for persons with disabilities and students who will be using it school and into their professional carriers.  
-JupyterLab which uses React is based on PhosphorJS, a powerful library for the creation of desktop style web applications.
+JupyterLab enables users to create and share documents that combine live code with narrative text, mathematical equations, visualizations, interactive controls, and other rich output.  Making JupyterLab accessible impacts both employment opportunities for persons with disabilities and students who will be using it school and into their professional carriers. JupyterLab which uses React is based on PhosphorJS, a powerful library for the creation of desktop style web applications.
 
 * [How to get started document](Jupyter.md).
 * GitHub Repo for the [JupyterLab Main Project](https://github.com/diagram-codesprint/jupyterlab)
