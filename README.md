@@ -64,8 +64,7 @@ The DIAGRAM Center is assembling a collection of best practices examples for com
 ### WAI Tools for Accessibility Conformance Testing with ACT Rules 
 
 * [Proposal of Hackathon Activity](docs/WAI-Tools_proposal.pdf)
-* Follow additional information and links in the proposal
-
 *  [Github repo: WAI Tools for Accessibility Conformance Testing with ACT Rules](https://github.com/diagram-codesprint/WAI-A11Y-Conformance-Testing-ACT-Rules)
+* Follow additional information and links in the proposal
 
 
