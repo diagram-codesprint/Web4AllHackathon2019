@@ -10,7 +10,9 @@ are based on working on Linux, but should work similarly on a Mac.
 * Clone the forked repository: [JupyterLab](https://github.com/diagram-codesprint/jupyterlab)
 * Follow the instructions on the [contribution page](https://github.com/jupyterlab/jupyterlab/blob/master/CONTRIBUTING.md).
 * Run a server with
-```jupyter lab --dev-mode```
+  ```jupyter lab --dev-mode --watch```
+  - `--dev-mode` makes sure that you are seeing the current codebase
+  - `--watch` automatically recompiles JupyterLab as you make changes
 * Connect to the server in your browser
 
 ### Phosphor
@@ -36,29 +38,29 @@ Let's do some changes to the code to see if things are working.
 
 * Go to `jupyterlab/packages/launcher-extension/src/index.ts`
 * Change the line
-```JavaScript
-launcher.title.label = 'Launcher';
-```
-to
-```JavaScript
-launcher.title.label = 'My Launcher';
-```
-* Build again with `jlpm run build`
-* Relaunch the server with `jupyter lab --dev-mode` (___Not strictly necessary!___)
+  ```JavaScript
+  launcher.title.label = 'Launcher';
+  ```
+  to
+  ```JavaScript
+  launcher.title.label = 'My Launcher';
+  ```
+  and save the file.
+* If you launched JupyterLab with `--dev-mode --watch`, it should automatically rebuild. If not, you'll need to build JupyterLab manually with `jlpm run build`.
 * Reload page in the browser
 
-You should now see a launcher with `My Launcher` label.
+You should now see a launcher with a `My Launcher` label.
 
 ### In Phosphor
 
 * Link `widgets` package from phosphor:
 
-```bash
-cd phosphor/packages/widgets
-jlpm link
-cd -
-jlpm link @phosphor/widgets
-```
+  ```bash
+  cd phosphor/packages/widgets
+  jlpm link
+  cd -
+  jlpm link @phosphor/widgets
+  ```
 
 * Go to file `phosphor/packages/widgets/src/menubar.ts`
 * Find the class `MenuBar` (line 45).
@@ -93,11 +95,10 @@ jlpm run build
 popd
 ```
 
-* `jlpm` syntax is pretty much the same as `npm` syntax. _But make sure to use
-  the former and not the latter!_
+* `jlpm` syntax is pretty much the same as `npm` syntax (`jlpm` is actually just a packaged version of `yarn`). _Make sure to use `jlpm` instead of `npm`!_
 
 * Your build is dependent on where it had been built. If you move directories
   you have to rebuild from scratch.
 
-* Once your locale 'jupyterlab' server is launched it should never be necessary
-  to restart it. Reloading in the browser should be sufficient.
+* Once your local 'jupyterlab' server is launched it should never be necessary
+  to restart it if your changes are purely TypeScript. Reloading in the browser should be sufficient.
