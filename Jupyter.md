@@ -1,11 +1,10 @@
 # Getting Started:
 
-
 ## Basic Installation
 
 ### JupyterLab
 
-* Clone the forked repositories: JupyterLab, Phosphor
+* Clone the forked repository: [JupyterLab](https://github.com/diagram-codesprint/jupyterlab)
 * Follow the instructions on the [contribution page](https://github.com/jupyterlab/jupyterlab/blob/master/CONTRIBUTING.md).
 * Run a server with
 ```jupyter lab --dev-mode```
@@ -13,7 +12,7 @@
 
 ### Phosphor
 
-* Clone `phosphor`.
+* Clone the forked repository: [Phosphor](https://github.com/diagram-codesprint/phosphor)
 * Run `jlpm install` in the cloned directory. ___(Do not use `npm install`!)___
 * If you want to make changes in Phosphor, make sure to link to your local copy with
   ```jlpm link```
@@ -32,7 +31,7 @@ Let's do some changes to the code to see if things are working.
 
 ### In Jupyterlab
 
-* go to `jupyterlab/packages/launcher-extension/src/index.ts`
+* Go to `jupyterlab/packages/launcher-extension/src/index.ts`
 * Change the line
 ```
 launcher.title.label = 'Launcher';
@@ -41,9 +40,9 @@ to
 ```
 launcher.title.label = 'My Launcher';
 ```
-* build again with `jlpm run build`
-* (___not strictly necessary!___) relaunch the server with `jupyter lab --dev-mode`
-* reload page in the browser
+* Build again with `jlpm run build`
+* Relaunch the server with `jupyter lab --dev-mode` (___Not strictly necessary!___)
+* Reload page in the browser
 
 You should now see a launcher with `My Launcher` label.
 
@@ -58,16 +57,16 @@ cd -
 jlpm link @phosphor/widgets
 ```
 
-* go to file `phosphor/packages/widgets/src/menubar.ts`
-* find the class `MenuBar` (line 45).
-* in the constructor after the super class call `super({ node: Private.createNode() });`
+* Go to file `phosphor/packages/widgets/src/menubar.ts`
+* Find the class `MenuBar` (line 45).
+* In the constructor after the super class call `super({ node: Private.createNode() });`
   add the following line:
   ```
   this.node.setAttribute('style', 'color:red; background-color:blue');
   ```
-* rebuild `phosphor` with `jlpm run build`
-* rebuild `jupyterlab` with `jlpm run build` _(Note you have to rebuild both for changes to take effect)_
-* reload the page in your browser. You should now see the menubar in blue with
+* Rebuild `phosphor` with `jlpm run build`
+* Rebuild `jupyterlab` with `jlpm run build` _(Note you have to rebuild both for changes to take effect)_
+* Reload the page in your browser. You should now see the menubar in blue with
   red font.
 
 
@@ -96,3 +95,6 @@ popd
 
 * Your build is dependent on where it had been built. If you move directories
   you have to rebuild from scratch.
+
+* Once your locale 'jupyterlab' server is launched it should never be necessary
+  to restart it. Reloading in the browser should be sufficient.
