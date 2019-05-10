@@ -45,27 +45,27 @@
 JupyterLab enables users to create and share documents that combine live code with narrative text, mathematical equations, visualizations, interactive controls, and other rich output.  Making JupyterLab accessible impacts both employment opportunities for persons with disabilities and students who will be using it school and into their professional carriers. JupyterLab which uses React is based on PhosphorJS, a powerful library for the creation of desktop style web applications.
 
 * [How to get started document](Jupyter.md).
-* GitHub Repo for the [JupyterLab Main Project](https://github.com/diagram-codesprint/jupyterlab)
-* GitHub Repo for the [Phosphor Ancillary Project](https://github.com/diagram-codesprint/phosphor)
+* [GitHub Repo: JupyterLab Main Project](https://github.com/diagram-codesprint/jupyterlab)
+* [GitHub Repo: Phosphor Ancillary Project](https://github.com/diagram-codesprint/phosphor)
 
 ### Extended Image Descriptions
 
 They say a picture is worth a thousand words, but when you can't see that picture or understand it due to some visual or cognitive disability it's as if the image was never there in the first place.  Authors and Publishers need a way to add both a simple description of the image and for those images which may need a more detailed description a mechanism for doing this in an unobtrusive yet easily accessible way.  Our goal is to create a library that will take existing images with aria-details pointing to content and automatically build an accessible interface for it that can be used in a variety of environments, including on the web and within an EPUB book.
 
-* Github repo for the 
-  [Extended Image Descriptions Project](https://github.com/diagram-codesprint/ExtendedImageDescriptions)
+* [Github repo: Extended Image Descriptions Project](https://github.com/diagram-codesprint/ExtendedImageDescriptions)
 
 ### Accessible Code Repository
 
 The DIAGRAM Center is assembling a collection of best practices examples for common interactions (many of which already exist and need to be collated in a central place) (e.g., fluid, what sock, W3C Authoring Practices, synchronized text-to-speech highlighting, carousels, page settings, date-pickers, etc.) See our current Code Repository which is a work in progress for some of the areas we are thinking of and have already started building this out. Our goal is to add another dozen best in class accessible projects others can reuse instead of recreating the wheel.
 
-* Github repo for the
-  [Accessible Code Repository Project](https://github.com/diagram-codesprint/AccessibleCodeRepository)
+* [Github repo: Accessible Code Repository Project](https://github.com/diagram-codesprint/AccessibleCodeRepository)
 
 
 ### WAI Tools for Accessibility Conformance Testing with ACT Rules 
 
 * [Proposal of Hackathon Activity](docs/WAI-Tools_proposal.pdf)
 * Follow additional information and links in the proposal
+
+*  [Github repo: WAI Tools for Accessibility Conformance Testing with ACT Rules](https://github.com/diagram-codesprint/WAI-A11Y-Conformance-Testing-ACT-Rules)
 
 
