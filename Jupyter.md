@@ -26,7 +26,7 @@ are based on working on Linux, but should work similarly on a Mac.
 ```bash
 cd phosphor/packages/messaging
 jlpm link
-cd -
+cd back to JupyterLab 
 jlpm link @phosphor/messaging
 ```
 
