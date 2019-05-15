@@ -19,6 +19,7 @@ are based on working on Linux, but should work similarly on a Mac.
 
 * Clone the forked repository: [Phosphor](https://github.com/diagram-codesprint/phosphor)
 * Run `jlpm install` in the cloned directory. ___(Do not use `npm install`!)___
+* Run `jlpm run build`
 * If you want to make changes in Phosphor, make sure to link to your local copy with
   ```jlpm link```
 * Make sure you go into the right `phosphor` sub package. E.g., do
